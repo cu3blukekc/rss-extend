@@ -154,6 +154,18 @@
     rdfs:label "Subject"@en ;
     skos:note "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en .
 
+<http://purl.org/dc/elements/1.1/tag>
+    dcterms:description "Typically, the tag will be represented using keywords, key phrases, or classification codes. Recommended best practice is to use a controlled vocabulary."@en ;
+    dcterms:hasVersion <http://dublincore.org/usage/terms/history/#tag-007> ;
+    dcterms:issued "1999-07-02"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    dcterms:modified "2012-06-14"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    a rdf:Property ;
+    rdfs:comment "The topic of the resource."@en ;
+    rdfs:isDefinedBy <http://purl.org/dc/elements/1.1/> ;
+    rdfs:label "Tag"@en ;
+    skos:note "A second property with the same name as this property has been declared in the dcterms: namespace (http://purl.org/dc/terms/).  See the Introduction to the document \"DCMI Metadata Terms\" (http://dublincore.org/documents/dcmi-terms/) for an explanation."@en .
+
+
 <http://purl.org/dc/elements/1.1/title>
     dcterms:hasVersion <http://dublincore.org/usage/terms/history/#title-006> ;
     dcterms:issued "1999-07-02"^^<http://www.w3.org/2001/XMLSchema#date> ;
